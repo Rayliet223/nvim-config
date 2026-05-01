@@ -1,17 +1,17 @@
 return {
   {
-    "folke/tokyonight.nvim",
+    "ellisonleao/gruvbox.nvim",
     lazy = false,
     priority = 1000,
     opts = {
-      style = "night", -- storm | moon | night | day
-      transparent = false,
+      contrast = "hard", -- "hard" | "soft" | ""
+      transparent_mode = false,
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "gruvbox",
     },
   },
 }
