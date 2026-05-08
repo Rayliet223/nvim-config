@@ -1,13 +1,8 @@
 return {
-  {
-    "ellisonleao/gruvbox.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {
-      contrast = "hard", -- "hard" | "soft" | ""
-      transparent_mode = false,
-    },
-  },
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+
+  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
