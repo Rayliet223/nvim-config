@@ -7,8 +7,6 @@ return {
         { "<leader>f", group = "find" },
         { "<leader>c", group = "code" },
         { "<leader>b", group = "buffer" },
-        { "<leader>e", desc = "Explorer (Neo-tree toggle)" },
-        { "<leader>o", desc = "Explorer (Neo-tree focus)" },
       })
     end,
   },
